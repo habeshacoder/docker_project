@@ -1,6 +1,7 @@
 FROM node:17-alpine
 RUN npm install -g nodemon
-WORKDIR /app
+WORKDIR /appclear
+
 COPY package.json .
 RUN npm install
 
